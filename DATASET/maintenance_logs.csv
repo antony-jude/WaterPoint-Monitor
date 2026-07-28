@@ -1,0 +1,51 @@
+id,waterpoint_id,technician,action_taken,cost,status,logged_at
+1,WP047,Prakash Raj,Fixed handle mechanism,873,RESOLVED,2026-07-13 04:21:57
+2,WP039,Suresh M,Cleared pipe blockage,675,RESOLVED,2026-07-10 17:11:17
+3,WP048,Suresh M,General inspection,227,RESOLVED,2026-07-05 14:31:51
+4,WP037,Ravi Kumar,Replaced O-ring,1310,RESOLVED,2026-06-26 17:32:15
+5,WP050,Suresh M,Replaced sensor,1375,RESOLVED,2026-07-26 11:53:30
+6,WP049,Ravi Kumar,Fixed handle mechanism,1219,RESOLVED,2026-07-02 07:30:13
+7,WP043,Ravi Kumar,Replaced sensor,1193,PENDING,2026-07-08 00:41:34
+8,WP014,Ravi Kumar,General inspection,1121,RESOLVED,2026-06-29 12:23:43
+9,WP033,Suresh M,Replaced sensor,632,RESOLVED,2026-07-15 23:31:06
+10,WP036,Prakash Raj,Replaced sensor,712,RESOLVED,2026-07-06 00:21:21
+11,WP018,Prakash Raj,Cleared pipe blockage,403,RESOLVED,2026-07-15 05:51:05
+12,WP027,Murugan K,Fixed handle mechanism,1318,RESOLVED,2026-07-24 20:43:01
+13,WP046,Suresh M,Replaced sensor,709,RESOLVED,2026-07-26 00:06:40
+14,WP023,Prakash Raj,General inspection,1315,RESOLVED,2026-07-14 12:33:32
+15,WP046,Murugan K,Replaced O-ring,1155,RESOLVED,2026-07-02 11:50:55
+16,WP034,Prakash Raj,Replaced sensor,1023,RESOLVED,2026-07-08 04:26:45
+17,WP025,Prakash Raj,Replaced O-ring,373,RESOLVED,2026-07-21 16:55:11
+18,WP004,Prakash Raj,General inspection,1487,PENDING,2026-07-15 15:51:11
+19,WP029,Murugan K,Replaced sensor,1352,PENDING,2026-07-24 01:00:19
+20,WP038,Suresh M,General inspection,1133,RESOLVED,2026-07-03 13:08:32
+21,WP009,Prakash Raj,Replaced O-ring,1235,RESOLVED,2026-06-28 05:17:38
+22,WP033,Suresh M,Replaced sensor,1459,PENDING,2026-07-15 06:48:16
+23,WP049,Suresh M,General inspection,536,RESOLVED,2026-06-27 16:10:26
+24,WP007,Suresh M,Replaced O-ring,268,RESOLVED,2026-07-18 01:51:19
+25,WP042,Suresh M,Cleared pipe blockage,862,RESOLVED,2026-07-14 11:23:29
+26,WP009,Ravi Kumar,Cleared pipe blockage,1595,RESOLVED,2026-07-10 07:32:20
+27,WP050,Prakash Raj,General inspection,409,RESOLVED,2026-07-25 01:36:07
+28,WP022,Suresh M,General inspection,169,RESOLVED,2026-06-27 04:29:13
+29,WP024,Ravi Kumar,Replaced O-ring,1494,RESOLVED,2026-07-09 10:47:45
+30,WP032,Ravi Kumar,Replaced sensor,1249,RESOLVED,2026-07-24 11:43:40
+31,WP003,Suresh M,Cleared pipe blockage,915,RESOLVED,2026-07-13 15:32:14
+32,WP047,Suresh M,General inspection,1258,RESOLVED,2026-06-29 11:51:45
+33,WP027,Ravi Kumar,Replaced O-ring,263,RESOLVED,2026-07-05 14:26:23
+34,WP001,Murugan K,Replaced sensor,855,RESOLVED,2026-07-13 10:47:50
+35,WP003,Prakash Raj,Fixed handle mechanism,289,RESOLVED,2026-07-11 16:02:33
+36,WP022,Prakash Raj,General inspection,860,RESOLVED,2026-07-23 07:30:48
+37,WP012,Ravi Kumar,Fixed handle mechanism,1016,PENDING,2026-06-30 07:48:36
+38,WP012,Suresh M,General inspection,650,PENDING,2026-07-12 05:22:26
+39,WP032,Prakash Raj,Replaced O-ring,154,RESOLVED,2026-07-19 12:04:57
+40,WP016,Prakash Raj,Replaced sensor,1210,RESOLVED,2026-07-23 05:55:34
+41,WP022,Prakash Raj,General inspection,987,RESOLVED,2026-06-28 05:19:37
+42,WP028,Murugan K,Fixed handle mechanism,616,RESOLVED,2026-07-04 18:13:20
+43,WP036,Murugan K,Fixed handle mechanism,976,RESOLVED,2026-07-17 13:51:57
+44,WP026,Ravi Kumar,Replaced O-ring,264,RESOLVED,2026-07-12 03:35:17
+45,WP045,Murugan K,Replaced sensor,1387,PENDING,2026-07-17 02:08:39
+46,WP035,Murugan K,Replaced sensor,1029,RESOLVED,2026-06-28 21:17:54
+47,WP014,Prakash Raj,Cleared pipe blockage,405,RESOLVED,2026-07-24 13:40:32
+48,WP042,Suresh M,Replaced O-ring,1335,PENDING,2026-07-02 05:34:03
+49,WP032,Suresh M,General inspection,232,PENDING,2026-07-21 15:59:48
+50,WP037,Ravi Kumar,Cleared pipe blockage,657,RESOLVED,2026-07-15 15:17:07

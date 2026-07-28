@@ -1,0 +1,24 @@
+{
+  "name": "water-point-monitor",
+  "version": "1.0.0",
+  "description": "Village Water Point Monitoring System",
+  "main": "Source Code/backend/server.js",
+  "scripts": {
+    "start": "node \"Source Code/backend/server.js\"",
+    "dev": "node \"Source Code/backend/server.js\"",
+    "build": "node scripts/vercel-build.js && npm --prefix \"Source Code/frontend\" ci && npm --prefix \"Source Code/frontend\" run build"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "morgan": "^1.11.0",
+    "sqlite3": "5.1.7"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

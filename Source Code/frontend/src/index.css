@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  
+  --accent-critical: #dc2626; 
+  --accent-warning: #ea580c;
+  --accent-success: #16a34a;
+  --accent-brand: #2563eb;
+  
+  --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  --card-hover-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  font-size: 16px;
+}
+
+/* Elevated Classic Card */
+.glass-card {
+  background: var(--bg-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: var(--card-shadow) !important;
+  border-radius: 12px !important;
+  color: var(--text-primary) !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-card:hover {
+  box-shadow: var(--card-hover-shadow) !important;
+  transform: translateY(-2px);
+}
+
+/* Navbar */
+.navbar-glass {
+  background: var(--text-primary) !important;
+  border-bottom: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  letter-spacing: -0.025em;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem !important;
+  border-radius: 6px;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Table overrides */
+.table-glass {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
+  --bs-table-bg: var(--bg-primary);
+  --bs-table-color: var(--text-primary);
+  --bs-table-border-color: var(--border-color);
+  --bs-table-striped-bg: #f8fafc;
+  --bs-table-hover-bg: #f1f5f9;
+}
+
+.table-glass th {
+  border-bottom: 2px solid var(--border-color) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  background-color: var(--bg-primary);
+  padding: 1rem !important;
+}
+
+.table-glass td {
+  vertical-align: middle;
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem !important;
+  font-size: 0.95rem;
+}
+
+/* Form overrides */
+.form-glass {
+  background: var(--bg-primary) !important;
+  border: 1px solid var(--border-color) !important;
+  color: var(--text-primary) !important;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.form-glass:focus {
+  border-color: var(--accent-brand) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1) !important;
+  outline: none;
+}
+
+/* Custom Badges */
+.badge {
+  padding: 0.5em 0.8em !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+  letter-spacing: 0.025em;
+}
+
+/* Buttons */
+.btn {
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--text-primary);
+  border-color: var(--text-primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #334155;
+  border-color: #334155;
+  transform: translateY(-1px);
+}
+
+.btn-outline-primary {
+  color: var(--text-primary);
+  border-color: var(--border-color);
+  background-color: var(--bg-primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--text-secondary);
+}
+
+/* Dashboard Specific Utilities */
+.metric-value {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1.2;
+}
+
+.metric-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Customizing the Leaflet Map container slightly for B&W theme */
+.leaflet-container {
+  filter: grayscale(80%) contrast(1.1);
+}
